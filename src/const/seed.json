@@ -1,0 +1,2522 @@
+[
+  {
+    "guest": [
+      {
+        "id": "392e0df4-b552-4341-91fa-b7eb55fe48a7",
+        "visit_date": "2023-10-10T07:43:50.254Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meal options",
+        "created_at": "2023-10-10T01:42:50.208Z",
+        "updated_at": "2023-10-10T11:31:59.302Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "229a5f92-f6c2-4afb-b959-5f77665219d5",
+        "visit_date": "2023-10-10T09:22:07.724Z",
+        "purpose": "Visiting a friend",
+        "notes": "Arriving late, please arrange for late check-in",
+        "created_at": "2023-10-10T00:05:46.657Z",
+        "updated_at": "2023-10-10T20:19:36.741Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96492e15-d121-49ba-be9a-c00535222858",
+        "visit_date": "2023-10-10T07:57:42.246Z",
+        "purpose": "Exploring the city",
+        "notes": "Allergic to nuts, please ensure no nuts in the meals",
+        "created_at": "2023-10-09T23:59:12.978Z",
+        "updated_at": "2023-10-10T19:16:12.217Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "817fb145-06ca-4c03-bdf4-688aca4cef2e",
+        "visit_date": "2023-10-10T04:20:21.697Z",
+        "purpose": "Attending a wedding",
+        "notes": "Require a quiet room for studying",
+        "created_at": "2023-10-10T16:49:02.759Z",
+        "updated_at": "2023-10-10T13:26:36.894Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd62cfc9-ccd3-476b-8a1f-375625d81b2a",
+        "visit_date": "2023-10-10T15:57:45.452Z",
+        "purpose": "Business meeting",
+        "notes": "Need assistance with transportation from the airport",
+        "created_at": "2023-10-10T06:38:51.760Z",
+        "updated_at": "2023-10-10T02:51:41.859Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "07c68e0f-c86e-4966-bc3b-f86fa401a21f",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T11:22:29.936Z",
+        "end_date": "2023-10-10T21:35:53.564Z",
+        "description": "Choose the next leader of the nation",
+        "created_at": "2023-10-10T10:54:49.107Z",
+        "updated_at": "2023-10-10T21:13:41.162Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "150fe7fb-f8c1-4d27-a3f3-cd0eef81f782",
+        "name": "Local Council Election",
+        "start_date": "2023-10-10T09:41:31.876Z",
+        "end_date": "2023-10-10T00:38:02.127Z",
+        "description": "Vote for representatives in your local area",
+        "created_at": "2023-10-10T05:44:36.977Z",
+        "updated_at": "2023-10-10T02:19:51.200Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "9d912c30-07a3-481f-a206-bc4287883977",
+        "name": "Student Union Election",
+        "start_date": "2023-10-10T15:48:08.266Z",
+        "end_date": "2023-10-10T02:50:15.595Z",
+        "description": "Elect student leaders to advocate for your rights",
+        "created_at": "2023-10-10T08:04:23.900Z",
+        "updated_at": "2023-10-10T08:21:47.870Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "862f3214-a26b-44c7-b402-ad48ad6e382b",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T03:20:32.129Z",
+        "end_date": "2023-10-10T08:46:14.131Z",
+        "description": "Select individuals to oversee the organization's operations",
+        "created_at": "2023-10-10T09:52:19.322Z",
+        "updated_at": "2023-10-10T18:12:11.612Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "dc5a1d6f-4a0b-4c93-920b-7c72554530d0",
+        "name": "Mayoral Election",
+        "start_date": "2023-10-10T13:24:44.949Z",
+        "end_date": "2023-10-10T09:16:38.751Z",
+        "description": "Decide the future direction of the city",
+        "created_at": "2023-10-10T12:48:25.416Z",
+        "updated_at": "2023-10-10T04:57:37.845Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "2875314a-242c-4827-87a2-a631fd165403",
+        "campaign_statement": "Committed to serving the community with integrity",
+        "votes_received": 3988,
+        "election_position": "President",
+        "created_at": "2023-10-10T06:09:03.680Z",
+        "updated_at": "2023-10-10T22:23:37.531Z",
+        "election_id": "9d912c30-07a3-481f-a206-bc4287883977",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "355141bd-d6ba-4317-ad4f-f1c8f5f1ce90",
+        "campaign_statement": "Passionate about creating positive change",
+        "votes_received": 36161,
+        "election_position": "Council Member",
+        "created_at": "2023-10-10T04:24:18.998Z",
+        "updated_at": "2023-10-10T11:44:17.433Z",
+        "election_id": "150fe7fb-f8c1-4d27-a3f3-cd0eef81f782",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33cb80a8-3d27-4269-82e7-d51276586feb",
+        "campaign_statement": "Experienced and dedicated to making a difference",
+        "votes_received": 30082,
+        "election_position": "Student Representative",
+        "created_at": "2023-10-10T14:57:28.150Z",
+        "updated_at": "2023-10-10T05:29:23.608Z",
+        "election_id": "862f3214-a26b-44c7-b402-ad48ad6e382b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f273690-d57f-4178-84dc-8a3133b22e26",
+        "campaign_statement": "Focused on addressing key issues that matter to you",
+        "votes_received": 81872,
+        "election_position": "Board Member",
+        "created_at": "2023-10-10T16:32:23.642Z",
+        "updated_at": "2023-10-10T01:50:20.737Z",
+        "election_id": "862f3214-a26b-44c7-b402-ad48ad6e382b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98bc1ffb-e867-422e-94ba-e043316796a4",
+        "campaign_statement": "Committed to transparency and accountability",
+        "votes_received": 33283,
+        "election_position": "Mayor",
+        "created_at": "2023-10-09T23:53:54.760Z",
+        "updated_at": "2023-10-10T22:40:20.706Z",
+        "election_id": "dc5a1d6f-4a0b-4c93-920b-7c72554530d0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "ef10d43e-91af-4a92-9049-35f03f6c3444",
+        "vote_date": "2023-10-10T05:37:22.314Z",
+        "created_at": "2023-10-10T14:54:03.708Z",
+        "updated_at": "2023-10-10T19:57:55.324Z",
+        "candidate_id": "355141bd-d6ba-4317-ad4f-f1c8f5f1ce90",
+        "election_id": "dc5a1d6f-4a0b-4c93-920b-7c72554530d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "015c2ff5-9b18-445c-b5bc-47351111cf62",
+        "vote_date": "2023-10-10T09:03:10.116Z",
+        "created_at": "2023-10-10T20:07:00.384Z",
+        "updated_at": "2023-10-10T22:41:38.005Z",
+        "candidate_id": "355141bd-d6ba-4317-ad4f-f1c8f5f1ce90",
+        "election_id": "dc5a1d6f-4a0b-4c93-920b-7c72554530d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7ddc601-46d9-41de-b7cc-f4f6fad7e27e",
+        "vote_date": "2023-10-10T20:57:02.401Z",
+        "created_at": "2023-10-10T13:32:34.307Z",
+        "updated_at": "2023-10-10T04:30:33.415Z",
+        "candidate_id": "8f273690-d57f-4178-84dc-8a3133b22e26",
+        "election_id": "dc5a1d6f-4a0b-4c93-920b-7c72554530d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4af28044-73bf-4c2d-bf6e-d92b965e80e5",
+        "vote_date": "2023-10-10T00:46:24.121Z",
+        "created_at": "2023-10-10T20:27:10.401Z",
+        "updated_at": "2023-10-09T23:43:48.437Z",
+        "candidate_id": "98bc1ffb-e867-422e-94ba-e043316796a4",
+        "election_id": "07c68e0f-c86e-4966-bc3b-f86fa401a21f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e1657c5-ea0b-4476-8ff4-6516a1b85c86",
+        "vote_date": "2023-10-10T08:58:17.244Z",
+        "created_at": "2023-10-10T02:20:32.828Z",
+        "updated_at": "2023-10-10T07:42:21.368Z",
+        "candidate_id": "2875314a-242c-4827-87a2-a631fd165403",
+        "election_id": "07c68e0f-c86e-4966-bc3b-f86fa401a21f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c6693a9a-e1e7-4253-b1c2-218c61409e6b",
+        "email": "Granville24@roq.tech",
+        "firstName": "Valentine",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72484331",
+        "tenantId": null
+      },
+      {
+        "reference": "6ceb80ee-7124-4420-ba96-933a00b77ea8",
+        "email": "Gerald_Wunsch52@roq.tech",
+        "firstName": "Gregory",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38543148",
+        "tenantId": null
+      },
+      {
+        "reference": "aada66c2-d4de-41f0-85f7-754719f96a9f",
+        "email": "Annabell42@roq.tech",
+        "firstName": "Woodrow",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86587921",
+        "tenantId": null
+      },
+      {
+        "reference": "2a901c26-c0c1-45a6-a3d8-96e9154012ff",
+        "email": "Leila_Auer81@roq.tech",
+        "firstName": "Jaqueline",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43005571",
+        "tenantId": null
+      },
+      {
+        "reference": "a2df8396-bfee-406c-9ff3-3f6742fcb382",
+        "email": "Itzel_Thiel@roq.tech",
+        "firstName": "Naomie",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "3d0a219d-0f1a-4b54-93a4-2ec5f63912ae",
+        "visit_date": "2023-10-10T01:33:40.350Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meals.",
+        "created_at": "2023-10-10T08:25:03.790Z",
+        "updated_at": "2023-10-10T00:07:42.461Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d322a61-bfcf-4163-be54-6087a0471641",
+        "visit_date": "2023-10-10T15:35:34.894Z",
+        "purpose": "Visiting a friend",
+        "notes": "Arriving on the 15th at 3 PM.",
+        "created_at": "2023-10-10T07:30:39.901Z",
+        "updated_at": "2023-10-10T06:17:47.572Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "127b7b66-49b7-450d-a394-a7ae852b3af9",
+        "visit_date": "2023-10-10T18:06:59.353Z",
+        "purpose": "Participating in a workshop",
+        "notes": "Require assistance with accommodation.",
+        "created_at": "2023-10-10T02:57:42.154Z",
+        "updated_at": "2023-10-10T19:19:52.749Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "739167d1-5849-41a4-b15b-500508e054c7",
+        "visit_date": "2023-10-10T09:04:34.940Z",
+        "purpose": "Delivering a lecture",
+        "notes": "Allergic to nuts.",
+        "created_at": "2023-10-10T08:06:00.958Z",
+        "updated_at": "2023-10-10T00:55:00.942Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "307f2c4d-f699-4995-a855-463c782e1b44",
+        "visit_date": "2023-10-10T13:30:25.946Z",
+        "purpose": "Exploring the campus",
+        "notes": "Looking forward to the event.",
+        "created_at": "2023-10-10T19:24:35.471Z",
+        "updated_at": "2023-10-10T22:11:34.820Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "5c6d07c8-4743-4e6f-9cc6-d7e50039f0b9",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T05:27:42.934Z",
+        "end_date": "2023-10-10T17:14:31.355Z",
+        "description": "Choose the next leader of our nation.",
+        "created_at": "2023-10-10T10:08:37.174Z",
+        "updated_at": "2023-10-10T12:35:01.674Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "e6c65d7c-9b32-4fad-8fde-5ce644257127",
+        "name": "Student Council Election",
+        "start_date": "2023-10-10T10:20:52.689Z",
+        "end_date": "2023-10-10T21:56:48.246Z",
+        "description": "Vote for your representatives in the student council.",
+        "created_at": "2023-10-10T04:04:58.356Z",
+        "updated_at": "2023-10-10T08:23:08.143Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "0b692cd6-062b-48cd-a141-31a56f0564f9",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T19:25:55.365Z",
+        "end_date": "2023-10-10T01:16:51.058Z",
+        "description": "Help shape the future of our organization.",
+        "created_at": "2023-10-10T17:59:37.907Z",
+        "updated_at": "2023-10-10T15:44:35.231Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "db3040f6-423d-4a09-b10d-7107c7943211",
+        "name": "Faculty Senate Election",
+        "start_date": "2023-10-10T21:39:45.157Z",
+        "end_date": "2023-10-10T03:02:34.014Z",
+        "description": "Have a say in the decision-making process.",
+        "created_at": "2023-10-09T23:25:45.143Z",
+        "updated_at": "2023-10-10T20:48:34.965Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "b6f23ca8-d27b-4f92-9504-b6c74b474e2c",
+        "name": "Local Government Election",
+        "start_date": "2023-10-10T08:00:16.910Z",
+        "end_date": "2023-10-10T16:04:00.823Z",
+        "description": "Exercise your democratic right.",
+        "created_at": "2023-10-10T07:08:01.507Z",
+        "updated_at": "2023-10-10T02:11:14.815Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "2d33f09c-7938-4fca-9e74-e40370c105db",
+        "campaign_statement": "Committed to serving the community.",
+        "votes_received": 12044,
+        "election_position": "President",
+        "created_at": "2023-10-10T17:00:57.373Z",
+        "updated_at": "2023-10-10T20:38:47.677Z",
+        "election_id": "e6c65d7c-9b32-4fad-8fde-5ce644257127",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2a4ba3d-111f-48f5-a530-88302d66aae2",
+        "campaign_statement": "Passionate about education reform.",
+        "votes_received": 98272,
+        "election_position": "Vice President",
+        "created_at": "2023-10-10T04:25:09.408Z",
+        "updated_at": "2023-10-10T16:22:33.504Z",
+        "election_id": "0b692cd6-062b-48cd-a141-31a56f0564f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59868089-5859-4001-8895-849ce707cf4c",
+        "campaign_statement": "Dedicated to promoting equality.",
+        "votes_received": 30007,
+        "election_position": "Treasurer",
+        "created_at": "2023-10-10T21:02:30.795Z",
+        "updated_at": "2023-10-10T12:32:50.490Z",
+        "election_id": "e6c65d7c-9b32-4fad-8fde-5ce644257127",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8146f95b-e90d-48e7-b46d-e6eb3ad74fe6",
+        "campaign_statement": "Focused on economic growth.",
+        "votes_received": 92322,
+        "election_position": "Secretary",
+        "created_at": "2023-10-10T04:02:07.066Z",
+        "updated_at": "2023-10-10T22:52:01.536Z",
+        "election_id": "db3040f6-423d-4a09-b10d-7107c7943211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad3c942d-1245-4c42-bdc6-469b76c52cd6",
+        "campaign_statement": "Advocating for environmental sustainability.",
+        "votes_received": 79887,
+        "election_position": "Public Relations Officer",
+        "created_at": "2023-10-10T15:51:45.239Z",
+        "updated_at": "2023-10-10T11:04:44.668Z",
+        "election_id": "db3040f6-423d-4a09-b10d-7107c7943211",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "513bd3cc-047a-44e8-98ba-016583368c84",
+        "vote_date": "2023-10-10T13:47:47.528Z",
+        "created_at": "2023-10-10T03:45:44.576Z",
+        "updated_at": "2023-10-10T18:15:32.410Z",
+        "candidate_id": "59868089-5859-4001-8895-849ce707cf4c",
+        "election_id": "5c6d07c8-4743-4e6f-9cc6-d7e50039f0b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e21f53eb-9e15-4713-ba8a-51e1368d1df7",
+        "vote_date": "2023-10-10T05:26:56.647Z",
+        "created_at": "2023-10-10T05:39:22.743Z",
+        "updated_at": "2023-10-10T22:59:56.369Z",
+        "candidate_id": "8146f95b-e90d-48e7-b46d-e6eb3ad74fe6",
+        "election_id": "db3040f6-423d-4a09-b10d-7107c7943211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1b9dd6f-f867-4746-9f3d-f4f6e837ca8d",
+        "vote_date": "2023-10-10T04:09:05.060Z",
+        "created_at": "2023-10-10T19:08:39.312Z",
+        "updated_at": "2023-10-10T19:30:32.120Z",
+        "candidate_id": "ad3c942d-1245-4c42-bdc6-469b76c52cd6",
+        "election_id": "e6c65d7c-9b32-4fad-8fde-5ce644257127",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33d36f5a-f286-4310-a34e-c0a4c05c4e7c",
+        "vote_date": "2023-10-10T11:42:09.286Z",
+        "created_at": "2023-10-10T05:38:41.127Z",
+        "updated_at": "2023-10-10T22:17:03.546Z",
+        "candidate_id": "8146f95b-e90d-48e7-b46d-e6eb3ad74fe6",
+        "election_id": "5c6d07c8-4743-4e6f-9cc6-d7e50039f0b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5167858-496a-478c-9b51-833f83df49b7",
+        "vote_date": "2023-10-10T16:36:52.980Z",
+        "created_at": "2023-10-10T12:20:25.109Z",
+        "updated_at": "2023-10-10T01:56:19.682Z",
+        "candidate_id": "d2a4ba3d-111f-48f5-a530-88302d66aae2",
+        "election_id": "0b692cd6-062b-48cd-a141-31a56f0564f9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "16ddde82-6101-404d-beb6-18ec4644f103",
+        "email": "Erich70@roq.tech",
+        "firstName": "Earl",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/172.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40bb8a34-e661-4c8f-9fe0-543f9b22ebba",
+        "email": "Karl_OConnell41@roq.tech",
+        "firstName": "Rosalind",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13c1494c-9dc8-4cd2-b79f-9c55fb6d5010",
+        "email": "Eusebio_Rolfson78@roq.tech",
+        "firstName": "Arnold",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83371985",
+        "tenantId": null
+      },
+      {
+        "reference": "32816cba-8350-47d8-b21a-116a25e4c8c5",
+        "email": "Margaret62@roq.tech",
+        "firstName": "Kiera",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/929.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e6bb7f5d-ea9e-4d7d-9902-3cb2ea15bbd9",
+        "email": "Lysanne_Koepp@roq.tech",
+        "firstName": "Ruby",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73173181",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "baf6aff7-1bd9-44f4-9f96-07e85cd6889f",
+        "visit_date": "2023-10-10T14:02:26.571Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meal options",
+        "created_at": "2023-10-10T21:23:07.537Z",
+        "updated_at": "2023-10-10T08:09:19.983Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbc344cb-12b5-4c58-b419-8bcb94e8683c",
+        "visit_date": "2023-10-10T05:26:52.072Z",
+        "purpose": "Visiting a friend",
+        "notes": "Arriving late, please arrange for late check-in",
+        "created_at": "2023-10-10T03:41:17.573Z",
+        "updated_at": "2023-10-10T21:57:44.007Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d9fe8f5-1a5c-4573-ad84-95045a88cb30",
+        "visit_date": "2023-10-10T06:45:44.803Z",
+        "purpose": "Exploring the city",
+        "notes": "Allergic to nuts, please avoid in meals",
+        "created_at": "2023-10-10T06:37:49.863Z",
+        "updated_at": "2023-10-10T04:11:21.532Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e0c5133-4d15-4cfe-b78a-b56b86af2b9b",
+        "visit_date": "2023-10-09T23:25:22.241Z",
+        "purpose": "Attending a wedding",
+        "notes": "Require wheelchair accessibility",
+        "created_at": "2023-10-10T03:50:18.907Z",
+        "updated_at": "2023-10-10T20:00:33.712Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5e5b339-b6d4-4a84-ae9d-2a1426e41edc",
+        "visit_date": "2023-10-10T13:59:49.732Z",
+        "purpose": "Attending a business meeting",
+        "notes": "Prefer a non-smoking room",
+        "created_at": "2023-10-10T01:55:47.864Z",
+        "updated_at": "2023-10-10T01:16:19.735Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "3e5ba739-f73d-4655-88d9-e8e9b91210a1",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T02:02:10.895Z",
+        "end_date": "2023-10-10T00:50:16.580Z",
+        "description": "An important election determining the country's leadership",
+        "created_at": "2023-10-10T17:47:11.246Z",
+        "updated_at": "2023-10-10T08:19:41.823Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "858f4b14-4c02-49e5-842b-a5a2aacf6a04",
+        "name": "Mayoral Election",
+        "start_date": "2023-10-10T19:39:09.916Z",
+        "end_date": "2023-10-10T20:55:28.847Z",
+        "description": "A local election to choose the city's mayor",
+        "created_at": "2023-10-10T11:30:41.042Z",
+        "updated_at": "2023-10-10T06:00:27.725Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "39e393a7-6ab6-4d13-8c11-332d1a331deb",
+        "name": "Student Council Election",
+        "start_date": "2023-10-10T10:19:00.363Z",
+        "end_date": "2023-10-10T20:52:56.618Z",
+        "description": "A student election to select representatives for the council",
+        "created_at": "2023-10-10T20:08:49.860Z",
+        "updated_at": "2023-10-10T00:16:00.334Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "9a9f5ff3-081f-47a1-afd9-b521fb8fcd18",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T09:35:38.405Z",
+        "end_date": "2023-10-10T14:31:27.927Z",
+        "description": "An election to appoint members to the organization's board",
+        "created_at": "2023-10-10T11:50:29.124Z",
+        "updated_at": "2023-10-10T12:20:03.354Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "a4fc6d10-73d0-4a19-8766-dc35fd8530a7",
+        "name": "Regional Representative Election",
+        "start_date": "2023-10-10T03:53:50.439Z",
+        "end_date": "2023-10-10T03:10:36.071Z",
+        "description": "An election to choose a representative for the region",
+        "created_at": "2023-10-10T06:11:44.179Z",
+        "updated_at": "2023-10-10T07:57:12.252Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "809879e8-c56e-4158-9043-9d56b2e5aaac",
+        "campaign_statement": "Committed to bringing positive change",
+        "votes_received": 18415,
+        "election_position": "President",
+        "created_at": "2023-10-10T04:04:18.697Z",
+        "updated_at": "2023-10-10T08:26:37.863Z",
+        "election_id": "9a9f5ff3-081f-47a1-afd9-b521fb8fcd18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f30bffac-e7b5-4f6f-bbad-a59ceffdd525",
+        "campaign_statement": "Dedicated to serving the community",
+        "votes_received": 55912,
+        "election_position": "Mayor",
+        "created_at": "2023-10-10T08:56:43.412Z",
+        "updated_at": "2023-10-10T10:53:50.168Z",
+        "election_id": "9a9f5ff3-081f-47a1-afd9-b521fb8fcd18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e1e0447-a094-4dad-b2cb-d8aba6ea98a8",
+        "campaign_statement": "Passionate about education and equal opportunities",
+        "votes_received": 84614,
+        "election_position": "Council Member",
+        "created_at": "2023-10-10T14:20:18.803Z",
+        "updated_at": "2023-10-10T21:07:00.951Z",
+        "election_id": "9a9f5ff3-081f-47a1-afd9-b521fb8fcd18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ce2902c-d165-4bda-a6fd-6727b93dd675",
+        "campaign_statement": "Focused on economic growth and job creation",
+        "votes_received": 80187,
+        "election_position": "Board Member",
+        "created_at": "2023-10-10T20:12:50.099Z",
+        "updated_at": "2023-10-10T11:31:40.620Z",
+        "election_id": "a4fc6d10-73d0-4a19-8766-dc35fd8530a7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6421d575-76df-49bf-b39a-403a165dd686",
+        "campaign_statement": "Committed to environmental sustainability",
+        "votes_received": 50028,
+        "election_position": "Regional Representative",
+        "created_at": "2023-10-10T14:29:33.398Z",
+        "updated_at": "2023-10-10T16:21:05.767Z",
+        "election_id": "a4fc6d10-73d0-4a19-8766-dc35fd8530a7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "a0fb58da-4466-4943-8a25-dc8ca6df4f44",
+        "vote_date": "2023-10-09T23:44:37.191Z",
+        "created_at": "2023-10-10T20:22:43.413Z",
+        "updated_at": "2023-10-10T19:15:26.411Z",
+        "candidate_id": "0e1e0447-a094-4dad-b2cb-d8aba6ea98a8",
+        "election_id": "a4fc6d10-73d0-4a19-8766-dc35fd8530a7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8645a5f-eadc-4367-b3d2-efaa8a44da7b",
+        "vote_date": "2023-10-10T04:20:18.704Z",
+        "created_at": "2023-10-10T08:49:43.533Z",
+        "updated_at": "2023-10-10T20:47:19.539Z",
+        "candidate_id": "6421d575-76df-49bf-b39a-403a165dd686",
+        "election_id": "9a9f5ff3-081f-47a1-afd9-b521fb8fcd18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a1b2f55-1c71-4d10-96cb-03d91b094244",
+        "vote_date": "2023-10-10T07:51:03.319Z",
+        "created_at": "2023-10-10T20:23:57.681Z",
+        "updated_at": "2023-10-10T17:09:54.579Z",
+        "candidate_id": "809879e8-c56e-4158-9043-9d56b2e5aaac",
+        "election_id": "39e393a7-6ab6-4d13-8c11-332d1a331deb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b72faa05-cff3-45fe-8686-f0b227ebe396",
+        "vote_date": "2023-10-10T09:39:37.700Z",
+        "created_at": "2023-10-10T19:35:02.973Z",
+        "updated_at": "2023-10-10T11:41:16.126Z",
+        "candidate_id": "f30bffac-e7b5-4f6f-bbad-a59ceffdd525",
+        "election_id": "858f4b14-4c02-49e5-842b-a5a2aacf6a04",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a505e21-75bb-4744-bf46-bd4652be88c3",
+        "vote_date": "2023-10-10T09:42:11.894Z",
+        "created_at": "2023-10-10T22:45:00.934Z",
+        "updated_at": "2023-10-10T16:58:48.283Z",
+        "candidate_id": "0e1e0447-a094-4dad-b2cb-d8aba6ea98a8",
+        "election_id": "39e393a7-6ab6-4d13-8c11-332d1a331deb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3cba7fe8-f58e-46e3-92ed-55c8fe579b21",
+        "email": "Cristopher.Kuvalis@roq.tech",
+        "firstName": "Lawrence",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70563751",
+        "tenantId": null
+      },
+      {
+        "reference": "b0648f0a-c247-43d2-907a-2c76e3617ca3",
+        "email": "Mara_Murazik-Farrell@roq.tech",
+        "firstName": "Terrence",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36574978",
+        "tenantId": null
+      },
+      {
+        "reference": "b890b40c-724a-45ce-9061-2cbcfb5b000b",
+        "email": "Duane_Emmerich69@roq.tech",
+        "firstName": "Nicklaus",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56960350",
+        "tenantId": null
+      },
+      {
+        "reference": "8a190784-46bb-4077-8f66-4218d8fdfe80",
+        "email": "Berneice_Cruickshank-Goyette@roq.tech",
+        "firstName": "Antwon",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b85d8bde-9047-4a17-90dc-1fc7fe433c15",
+        "email": "Wilber.Feil24@roq.tech",
+        "firstName": "Elouise",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/600.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "c369f4f2-c2bf-40da-a89b-1d4584d27661",
+        "visit_date": "2023-10-10T10:43:23.600Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meals",
+        "created_at": "2023-10-10T00:50:28.819Z",
+        "updated_at": "2023-10-10T20:35:46.067Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66bbbe81-bbb2-4322-950a-4c97d042125f",
+        "visit_date": "2023-10-10T19:13:25.539Z",
+        "purpose": "Visiting a professor",
+        "notes": "Arriving late due to flight delay",
+        "created_at": "2023-10-10T01:16:29.541Z",
+        "updated_at": "2023-10-10T20:38:51.881Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c510ee5-600e-460f-9428-65b40d71bfd8",
+        "visit_date": "2023-10-10T03:48:51.488Z",
+        "purpose": "Touring the campus",
+        "notes": "Need assistance with transportation",
+        "created_at": "2023-10-10T06:59:47.377Z",
+        "updated_at": "2023-10-10T07:53:36.584Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846c84bc-246b-4cb2-8fe2-fd6855a8a67f",
+        "visit_date": "2023-10-10T21:02:40.385Z",
+        "purpose": "Participating in a workshop",
+        "notes": "Allergies: None",
+        "created_at": "2023-10-10T12:08:45.378Z",
+        "updated_at": "2023-10-10T15:43:05.022Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45f8ab17-24d1-476f-a186-255a44cccc0c",
+        "visit_date": "2023-10-10T02:31:45.019Z",
+        "purpose": "Meeting with alumni",
+        "notes": "Special requests: None",
+        "created_at": "2023-10-10T02:26:09.668Z",
+        "updated_at": "2023-10-10T22:14:26.985Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "9eb01f34-501f-4b50-9f02-5114064562f5",
+        "name": "Student Council Elections",
+        "start_date": "2023-10-10T11:04:22.387Z",
+        "end_date": "2023-10-10T14:31:50.459Z",
+        "description": "Vote for the future of our university",
+        "created_at": "2023-10-10T05:21:51.645Z",
+        "updated_at": "2023-10-10T03:06:48.711Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "fc6e2013-e928-4936-929b-4e769c29c924",
+        "name": "Faculty Senate Elections",
+        "start_date": "2023-10-09T23:15:56.500Z",
+        "end_date": "2023-10-10T18:25:11.307Z",
+        "description": "Have your voice heard in important decisions",
+        "created_at": "2023-10-10T06:55:23.949Z",
+        "updated_at": "2023-10-10T04:16:31.508Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "cb1a147d-9715-4f50-8bc2-3dba5046cfb3",
+        "name": "Board of Trustees Elections",
+        "start_date": "2023-10-10T04:22:38.693Z",
+        "end_date": "2023-10-10T07:28:49.918Z",
+        "description": "Shape the direction of our institution",
+        "created_at": "2023-10-10T01:31:19.566Z",
+        "updated_at": "2023-10-10T04:53:29.209Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "c3897a83-90cc-4a4b-ac2b-207b8b6db1a0",
+        "name": "Alumni Association Elections",
+        "start_date": "2023-10-10T10:10:50.799Z",
+        "end_date": "2023-10-10T12:04:48.154Z",
+        "description": "Make a difference in the university community",
+        "created_at": "2023-10-10T22:55:00.794Z",
+        "updated_at": "2023-10-10T15:17:40.813Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "c50deeaa-fbce-4e2d-88b1-64a12b31ffe7",
+        "name": "Parent Advisory Committee Elections",
+        "start_date": "2023-10-10T19:13:33.770Z",
+        "end_date": "2023-10-10T16:47:26.682Z",
+        "description": "Exercise your right to vote",
+        "created_at": "2023-10-10T16:11:05.583Z",
+        "updated_at": "2023-10-10T04:00:12.360Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "563b71d7-78b1-434f-90c5-a13133211ff1",
+        "campaign_statement": "Committed to student success",
+        "votes_received": 15635,
+        "election_position": "President",
+        "created_at": "2023-10-10T13:03:04.788Z",
+        "updated_at": "2023-10-10T10:16:44.125Z",
+        "election_id": "fc6e2013-e928-4936-929b-4e769c29c924",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8074df35-231d-43aa-968c-feda180034ec",
+        "campaign_statement": "Advocating for academic excellence",
+        "votes_received": 83451,
+        "election_position": "Vice President",
+        "created_at": "2023-10-10T07:25:12.396Z",
+        "updated_at": "2023-10-10T13:37:24.680Z",
+        "election_id": "9eb01f34-501f-4b50-9f02-5114064562f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c42cbacb-db46-49a8-a419-33cbc5d81ffa",
+        "campaign_statement": "Promoting diversity and inclusion",
+        "votes_received": 90113,
+        "election_position": "Secretary",
+        "created_at": "2023-10-10T01:27:15.752Z",
+        "updated_at": "2023-10-10T21:10:30.280Z",
+        "election_id": "c3897a83-90cc-4a4b-ac2b-207b8b6db1a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e329d1b7-6b20-4ec9-b6ea-233b8c790d4d",
+        "campaign_statement": "Building a stronger university community",
+        "votes_received": 66525,
+        "election_position": "Treasurer",
+        "created_at": "2023-10-10T00:06:52.539Z",
+        "updated_at": "2023-10-10T15:13:43.816Z",
+        "election_id": "c3897a83-90cc-4a4b-ac2b-207b8b6db1a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "121afc5d-04c0-41b2-8269-7b9b0c5b8992",
+        "campaign_statement": "Bringing fresh ideas and innovation",
+        "votes_received": 14795,
+        "election_position": "Representative",
+        "created_at": "2023-10-10T16:12:22.107Z",
+        "updated_at": "2023-10-10T08:22:57.800Z",
+        "election_id": "9eb01f34-501f-4b50-9f02-5114064562f5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "3c3cf365-23dd-4baa-8692-138e61ab31ed",
+        "vote_date": "2023-10-10T15:58:42.317Z",
+        "created_at": "2023-10-10T01:08:03.547Z",
+        "updated_at": "2023-10-10T02:55:10.774Z",
+        "candidate_id": "8074df35-231d-43aa-968c-feda180034ec",
+        "election_id": "fc6e2013-e928-4936-929b-4e769c29c924",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b68abdd-d551-4e84-9295-31cea6e023b3",
+        "vote_date": "2023-10-10T17:27:42.693Z",
+        "created_at": "2023-10-10T15:59:27.803Z",
+        "updated_at": "2023-10-10T04:31:49.573Z",
+        "candidate_id": "8074df35-231d-43aa-968c-feda180034ec",
+        "election_id": "c3897a83-90cc-4a4b-ac2b-207b8b6db1a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1611f57c-63f1-47bc-9f45-06ea45fa5b7a",
+        "vote_date": "2023-10-10T21:41:14.127Z",
+        "created_at": "2023-10-10T04:25:34.986Z",
+        "updated_at": "2023-10-09T23:11:59.624Z",
+        "candidate_id": "121afc5d-04c0-41b2-8269-7b9b0c5b8992",
+        "election_id": "fc6e2013-e928-4936-929b-4e769c29c924",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbe75b4d-e7be-466e-9f7b-834f76b7968d",
+        "vote_date": "2023-10-10T17:06:34.358Z",
+        "created_at": "2023-10-10T01:04:14.137Z",
+        "updated_at": "2023-10-10T05:10:45.927Z",
+        "candidate_id": "8074df35-231d-43aa-968c-feda180034ec",
+        "election_id": "c3897a83-90cc-4a4b-ac2b-207b8b6db1a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89ddab0b-1f2b-49f3-939a-042a6b6c426e",
+        "vote_date": "2023-10-10T03:15:48.991Z",
+        "created_at": "2023-10-10T06:13:57.280Z",
+        "updated_at": "2023-10-09T23:07:37.090Z",
+        "candidate_id": "121afc5d-04c0-41b2-8269-7b9b0c5b8992",
+        "election_id": "fc6e2013-e928-4936-929b-4e769c29c924",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "60b7cfae-c003-4194-bcca-f8ce97885eef",
+        "email": "Johnny.Bradtke7@roq.tech",
+        "firstName": "Ludie",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ee0f5795-d3db-4a3f-b7d2-c122b5229f93",
+        "email": "Antwan_Bogan92@roq.tech",
+        "firstName": "Suzanne",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45083127",
+        "tenantId": null
+      },
+      {
+        "reference": "07eeb947-ba9d-460b-aeb2-02ddbbdcf581",
+        "email": "Peyton59@roq.tech",
+        "firstName": "Lennie",
+        "lastName": "Gorczany-McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/854.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a38b114-1315-4525-943c-b3c2a70980fd",
+        "email": "Rylan72@roq.tech",
+        "firstName": "Deangelo",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22732099",
+        "tenantId": null
+      },
+      {
+        "reference": "5c76b377-4909-43b3-9933-a48428bfcac0",
+        "email": "Jenifer69@roq.tech",
+        "firstName": "Sienna",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67647534",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "cba2fe59-8e97-4b23-9954-c7247c6e1b29",
+        "visit_date": "2023-10-09T23:06:09.291Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian food",
+        "created_at": "2023-10-10T22:48:36.556Z",
+        "updated_at": "2023-10-10T03:21:05.149Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17ad5087-5cc6-48b1-bf95-28c13d760f1d",
+        "visit_date": "2023-10-10T08:52:08.749Z",
+        "purpose": "Visiting a friend",
+        "notes": "Arriving late in the evening",
+        "created_at": "2023-10-10T17:17:03.062Z",
+        "updated_at": "2023-10-10T01:16:15.490Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10af3ae1-1970-43d0-91e6-85d17488086b",
+        "visit_date": "2023-10-10T01:39:36.121Z",
+        "purpose": "Exploring the city",
+        "notes": "Need a quiet room for work",
+        "created_at": "2023-10-10T18:50:28.099Z",
+        "updated_at": "2023-10-10T15:52:34.704Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37353c8f-2164-48e7-8f6e-9a58f8ca398d",
+        "visit_date": "2023-10-10T13:10:19.366Z",
+        "purpose": "Attending a wedding",
+        "notes": "Allergic to peanuts",
+        "created_at": "2023-10-10T03:29:12.233Z",
+        "updated_at": "2023-10-10T02:52:50.656Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e6b1f29-562a-4512-b87a-b3472a6299b8",
+        "visit_date": "2023-10-10T11:53:07.482Z",
+        "purpose": "Participating in a workshop",
+        "notes": "Require a parking space",
+        "created_at": "2023-10-10T16:58:11.675Z",
+        "updated_at": "2023-10-10T05:20:52.381Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "3bd6bb3b-77be-4f70-bf4c-823bc93bf6c2",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T09:24:20.456Z",
+        "end_date": "2023-10-10T03:34:22.104Z",
+        "description": "Choose the future leader",
+        "created_at": "2023-10-10T06:55:50.914Z",
+        "updated_at": "2023-10-10T12:06:55.453Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "2ae4899e-c7e4-47b8-a017-6fee2ea5fef9",
+        "name": "Mayoral Election",
+        "start_date": "2023-10-10T15:28:44.310Z",
+        "end_date": "2023-10-10T17:08:46.905Z",
+        "description": "Vote for change",
+        "created_at": "2023-10-10T22:14:10.970Z",
+        "updated_at": "2023-10-10T07:33:20.263Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "f210ec94-9c27-4da5-bc8c-fd4561b306f9",
+        "name": "Student Council Election",
+        "start_date": "2023-10-10T11:30:09.537Z",
+        "end_date": "2023-10-10T22:35:30.748Z",
+        "description": "Have your say in the decision-making process",
+        "created_at": "2023-10-10T05:17:45.752Z",
+        "updated_at": "2023-10-10T04:12:28.717Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "9000d017-5ce7-48c6-a102-de0e4cb3974b",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T19:57:33.256Z",
+        "end_date": "2023-10-10T18:30:39.260Z",
+        "description": "Exercise your democratic right",
+        "created_at": "2023-10-10T05:09:25.010Z",
+        "updated_at": "2023-10-10T19:32:00.097Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "ee3b5b74-47bf-4b51-806f-b442b790ec4a",
+        "name": "Union Election",
+        "start_date": "2023-10-10T07:26:52.459Z",
+        "end_date": "2023-10-10T05:04:54.978Z",
+        "description": "Shape the direction of the organization",
+        "created_at": "2023-10-10T03:54:15.743Z",
+        "updated_at": "2023-10-10T15:10:05.614Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "8aa7ccc9-b197-404e-a7c7-b30e255b7766",
+        "campaign_statement": "Committed to progress and innovation",
+        "votes_received": 30261,
+        "election_position": "President",
+        "created_at": "2023-10-10T10:01:47.922Z",
+        "updated_at": "2023-10-10T18:31:07.413Z",
+        "election_id": "ee3b5b74-47bf-4b51-806f-b442b790ec4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e22acb3-7c56-4b77-b75d-47470ad32ae9",
+        "campaign_statement": "Advocating for equality and justice",
+        "votes_received": 29617,
+        "election_position": "Mayor",
+        "created_at": "2023-10-10T07:29:13.919Z",
+        "updated_at": "2023-10-10T05:45:18.917Z",
+        "election_id": "2ae4899e-c7e4-47b8-a017-6fee2ea5fef9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a48ea95-a9a3-4a52-beb2-7c0cd7c510b7",
+        "campaign_statement": "Bringing fresh ideas and perspectives",
+        "votes_received": 91788,
+        "election_position": "Student Council President",
+        "created_at": "2023-10-10T12:40:15.857Z",
+        "updated_at": "2023-10-10T02:54:03.266Z",
+        "election_id": "9000d017-5ce7-48c6-a102-de0e4cb3974b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e4c301f-c1d0-4e33-b548-4ab1e4408c09",
+        "campaign_statement": "Dedicated to serving the community",
+        "votes_received": 59719,
+        "election_position": "Board Member",
+        "created_at": "2023-10-10T00:31:03.168Z",
+        "updated_at": "2023-10-10T08:19:00.808Z",
+        "election_id": "f210ec94-9c27-4da5-bc8c-fd4561b306f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d890621e-6983-4091-91b6-8eaf7e889981",
+        "campaign_statement": "Championing transparency and accountability",
+        "votes_received": 9551,
+        "election_position": "Union Representative",
+        "created_at": "2023-10-10T13:17:16.559Z",
+        "updated_at": "2023-10-10T20:57:32.935Z",
+        "election_id": "3bd6bb3b-77be-4f70-bf4c-823bc93bf6c2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "ea365ce9-206a-4f73-a317-8b679206d91f",
+        "vote_date": "2023-10-10T17:24:30.815Z",
+        "created_at": "2023-10-10T16:52:10.497Z",
+        "updated_at": "2023-10-10T18:52:23.881Z",
+        "candidate_id": "9a48ea95-a9a3-4a52-beb2-7c0cd7c510b7",
+        "election_id": "9000d017-5ce7-48c6-a102-de0e4cb3974b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "279dbb4d-1c08-4d8c-b445-75942b2c80f4",
+        "vote_date": "2023-10-10T02:40:50.117Z",
+        "created_at": "2023-10-10T00:23:52.788Z",
+        "updated_at": "2023-10-10T22:14:16.602Z",
+        "candidate_id": "8aa7ccc9-b197-404e-a7c7-b30e255b7766",
+        "election_id": "2ae4899e-c7e4-47b8-a017-6fee2ea5fef9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f1e16b-7d8d-4a0c-ae80-3a3717fa1237",
+        "vote_date": "2023-10-09T23:11:54.066Z",
+        "created_at": "2023-10-10T07:10:24.687Z",
+        "updated_at": "2023-10-10T17:16:42.982Z",
+        "candidate_id": "d890621e-6983-4091-91b6-8eaf7e889981",
+        "election_id": "f210ec94-9c27-4da5-bc8c-fd4561b306f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bed76275-753c-42cf-b095-89bf7d595873",
+        "vote_date": "2023-10-09T23:51:07.926Z",
+        "created_at": "2023-10-10T21:43:45.015Z",
+        "updated_at": "2023-10-10T09:41:27.284Z",
+        "candidate_id": "8aa7ccc9-b197-404e-a7c7-b30e255b7766",
+        "election_id": "9000d017-5ce7-48c6-a102-de0e4cb3974b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47b4c730-112b-43b2-a060-bcb5e84b1cdf",
+        "vote_date": "2023-10-10T11:31:21.049Z",
+        "created_at": "2023-10-10T22:57:30.417Z",
+        "updated_at": "2023-10-10T17:54:05.012Z",
+        "candidate_id": "8aa7ccc9-b197-404e-a7c7-b30e255b7766",
+        "election_id": "f210ec94-9c27-4da5-bc8c-fd4561b306f9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "80833bb0-b4fb-48e3-ba36-b87413875d1c",
+        "email": "Elmer_Lebsack38@roq.tech",
+        "firstName": "Lester",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "446918f9-ffe5-4512-8124-fe06e12f2715",
+        "email": "Bo.Lesch7@roq.tech",
+        "firstName": "Ford",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/697.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2fc69b20-2858-4ecc-9581-f0a30f327d72",
+        "email": "Joshua_Weber@roq.tech",
+        "firstName": "Henri",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38422887",
+        "tenantId": null
+      },
+      {
+        "reference": "f2b3e059-49ef-413a-b272-90ddbb8d7fc8",
+        "email": "Sebastian50@roq.tech",
+        "firstName": "Alene",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48781636",
+        "tenantId": null
+      },
+      {
+        "reference": "3aecf21f-b6a5-40b6-b55b-9516d3f8dba2",
+        "email": "Brice.Weimann46@roq.tech",
+        "firstName": "Erika",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/235.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "3113f82c-bb36-4620-a1ee-c464728d994a",
+        "visit_date": "2023-10-10T21:59:39.532Z",
+        "purpose": "Attending a conference",
+        "notes": "Arriving on 10th July",
+        "created_at": "2023-10-10T13:33:18.437Z",
+        "updated_at": "2023-10-09T23:09:33.852Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fa0ba09-2da1-4ae8-98e7-851b831d1164",
+        "visit_date": "2023-10-10T15:51:00.126Z",
+        "purpose": "Visiting a friend",
+        "notes": "Vegetarian dietary requirements",
+        "created_at": "2023-10-10T17:27:44.819Z",
+        "updated_at": "2023-10-10T09:10:58.123Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64024f56-5368-4039-bffd-c8729433575f",
+        "visit_date": "2023-10-10T15:22:00.207Z",
+        "purpose": "Exploring the city",
+        "notes": "Allergies: peanuts",
+        "created_at": "2023-10-10T10:46:23.567Z",
+        "updated_at": "2023-10-10T00:32:01.542Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e57d6c15-728d-4e5d-aa32-03f520607c6e",
+        "visit_date": "2023-10-10T19:32:19.204Z",
+        "purpose": "Attending a wedding",
+        "notes": "Room preference: non-smoking",
+        "created_at": "2023-10-10T11:03:31.073Z",
+        "updated_at": "2023-10-10T14:56:07.149Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9d362cf-6251-4af2-b97e-540c01eb7e2e",
+        "visit_date": "2023-10-10T17:20:07.065Z",
+        "purpose": "Business meeting",
+        "notes": "Flight details: ABC123",
+        "created_at": "2023-10-10T06:08:02.205Z",
+        "updated_at": "2023-10-10T19:54:23.411Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "3bb7ed79-2b78-4edf-bfe7-cf2d81f2df44",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T21:46:23.168Z",
+        "end_date": "2023-10-10T11:32:24.374Z",
+        "description": "Choose the next leader of the nation",
+        "created_at": "2023-10-10T06:13:16.448Z",
+        "updated_at": "2023-10-10T15:24:34.822Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "e97203fb-984e-4b1a-a5e4-969ff89c676c",
+        "name": "Local Council Election",
+        "start_date": "2023-10-10T09:04:03.200Z",
+        "end_date": "2023-10-10T01:58:13.836Z",
+        "description": "Vote for representatives in your local area",
+        "created_at": "2023-10-10T13:37:47.411Z",
+        "updated_at": "2023-10-10T03:21:18.182Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "18a110f3-e325-4ff3-92e3-d09a661412c6",
+        "name": "Student Union Election",
+        "start_date": "2023-10-10T10:36:31.531Z",
+        "end_date": "2023-10-10T06:55:55.695Z",
+        "description": "Have a say in student governance",
+        "created_at": "2023-10-10T08:20:40.759Z",
+        "updated_at": "2023-10-10T18:15:06.505Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "d290bcdd-3203-4664-b9d8-c4881eaf0665",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T18:38:12.734Z",
+        "end_date": "2023-10-10T17:00:16.946Z",
+        "description": "Elect leaders for effective decision-making",
+        "created_at": "2023-10-10T21:42:14.053Z",
+        "updated_at": "2023-10-10T02:12:12.837Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "ed7b01e0-c768-483a-a14f-93a92f70cf59",
+        "name": "Community Association Election",
+        "start_date": "2023-10-10T03:36:58.939Z",
+        "end_date": "2023-10-10T11:54:36.734Z",
+        "description": "Participate in community decision-making",
+        "created_at": "2023-10-10T11:28:39.440Z",
+        "updated_at": "2023-10-10T08:39:56.009Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "afbf678f-7b8a-48ca-9d84-649ab22854bb",
+        "campaign_statement": "Bringing positive change for a better future",
+        "votes_received": 35281,
+        "election_position": "President",
+        "created_at": "2023-10-10T19:10:31.962Z",
+        "updated_at": "2023-10-10T08:45:27.945Z",
+        "election_id": "18a110f3-e325-4ff3-92e3-d09a661412c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f693a9f7-2952-4e44-bcea-3c7fc719a2e0",
+        "campaign_statement": "Advocating for equal opportunities",
+        "votes_received": 49050,
+        "election_position": "Councilor",
+        "created_at": "2023-10-10T20:10:55.161Z",
+        "updated_at": "2023-10-10T01:47:25.716Z",
+        "election_id": "3bb7ed79-2b78-4edf-bfe7-cf2d81f2df44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85d133fd-d12c-4280-ad0f-f32baf5c3caa",
+        "campaign_statement": "Building a stronger community together",
+        "votes_received": 39373,
+        "election_position": "Student Representative",
+        "created_at": "2023-10-10T17:58:30.337Z",
+        "updated_at": "2023-10-10T22:27:52.309Z",
+        "election_id": "3bb7ed79-2b78-4edf-bfe7-cf2d81f2df44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "281b90b0-9430-43ac-99f4-701327331723",
+        "campaign_statement": "Experienced and dedicated to serving you",
+        "votes_received": 78372,
+        "election_position": "Board Member",
+        "created_at": "2023-10-10T03:20:44.031Z",
+        "updated_at": "2023-10-10T06:28:14.996Z",
+        "election_id": "3bb7ed79-2b78-4edf-bfe7-cf2d81f2df44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da0011ee-1d4f-4c54-9ec5-e46421444515",
+        "campaign_statement": "Committed to transparency and accountability",
+        "votes_received": 61664,
+        "election_position": "Association Chair",
+        "created_at": "2023-10-10T07:34:39.150Z",
+        "updated_at": "2023-10-10T15:56:03.139Z",
+        "election_id": "3bb7ed79-2b78-4edf-bfe7-cf2d81f2df44",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "bd831870-be16-4bdf-969a-b37c83462b3f",
+        "vote_date": "2023-10-10T01:06:25.696Z",
+        "created_at": "2023-10-10T14:13:30.104Z",
+        "updated_at": "2023-10-10T00:58:53.667Z",
+        "candidate_id": "da0011ee-1d4f-4c54-9ec5-e46421444515",
+        "election_id": "ed7b01e0-c768-483a-a14f-93a92f70cf59",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a5466a6-f5fb-473b-851d-1cf04aef3261",
+        "vote_date": "2023-10-10T07:20:47.054Z",
+        "created_at": "2023-10-10T09:52:10.375Z",
+        "updated_at": "2023-10-10T03:36:41.818Z",
+        "candidate_id": "281b90b0-9430-43ac-99f4-701327331723",
+        "election_id": "e97203fb-984e-4b1a-a5e4-969ff89c676c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc30e378-d022-412e-a941-0f2d844c91f5",
+        "vote_date": "2023-10-10T12:44:24.639Z",
+        "created_at": "2023-10-10T20:24:38.677Z",
+        "updated_at": "2023-10-10T10:00:27.336Z",
+        "candidate_id": "afbf678f-7b8a-48ca-9d84-649ab22854bb",
+        "election_id": "18a110f3-e325-4ff3-92e3-d09a661412c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b7afa44-2e15-4162-9dae-aeb3fc404361",
+        "vote_date": "2023-10-10T17:25:54.393Z",
+        "created_at": "2023-10-10T14:43:17.662Z",
+        "updated_at": "2023-10-10T05:32:03.178Z",
+        "candidate_id": "afbf678f-7b8a-48ca-9d84-649ab22854bb",
+        "election_id": "18a110f3-e325-4ff3-92e3-d09a661412c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9159fb0d-c244-43f4-9333-f0671467943f",
+        "vote_date": "2023-10-10T20:55:46.559Z",
+        "created_at": "2023-10-10T01:46:21.948Z",
+        "updated_at": "2023-10-10T01:33:17.264Z",
+        "candidate_id": "f693a9f7-2952-4e44-bcea-3c7fc719a2e0",
+        "election_id": "d290bcdd-3203-4664-b9d8-c4881eaf0665",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ed5080a2-6812-47c1-be95-73ae6aaa4c05",
+        "email": "Bette_Gutmann14@roq.tech",
+        "firstName": "Kyra",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75586706",
+        "tenantId": null
+      },
+      {
+        "reference": "161d60f9-c7d5-4672-a93b-0df3770a6555",
+        "email": "Brielle_Lesch@roq.tech",
+        "firstName": "Lon",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dea979fc-a223-4905-8b40-f07c68ccbdd9",
+        "email": "Noble40@roq.tech",
+        "firstName": "Mervin",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45245368",
+        "tenantId": null
+      },
+      {
+        "reference": "ae2acdc7-16ff-455a-b046-551f4860b2dc",
+        "email": "Cletus_Conroy@roq.tech",
+        "firstName": "Genesis",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59250750",
+        "tenantId": null
+      },
+      {
+        "reference": "f570e3e3-5b36-46c1-a6c4-9117bb52d3e7",
+        "email": "Nathan_Ruecker2@roq.tech",
+        "firstName": "Karli",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "81e9c92b-0f12-47f7-a7d9-d785fc835052",
+        "visit_date": "2023-10-10T11:41:04.883Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meal options",
+        "created_at": "2023-10-10T15:53:27.181Z",
+        "updated_at": "2023-10-10T09:41:17.174Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7710e256-a2ca-4c0c-be19-c0938002e49b",
+        "visit_date": "2023-10-10T15:47:59.940Z",
+        "purpose": "Visiting a friend",
+        "notes": "Arriving on the 15th at 3 PM",
+        "created_at": "2023-10-10T00:56:08.089Z",
+        "updated_at": "2023-10-10T22:04:08.856Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61756d25-3506-4295-bdd7-ada7da98cfcb",
+        "visit_date": "2023-10-10T04:48:54.603Z",
+        "purpose": "Participating in a workshop",
+        "notes": "Need assistance with transportation",
+        "created_at": "2023-10-10T19:33:17.596Z",
+        "updated_at": "2023-10-10T21:47:54.531Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b211be9-e89a-4926-aaba-a0515ddc9bb6",
+        "visit_date": "2023-10-10T22:44:33.669Z",
+        "purpose": "Delivering a lecture",
+        "notes": "Allergic to nuts",
+        "created_at": "2023-10-10T16:24:47.569Z",
+        "updated_at": "2023-10-10T17:19:12.012Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cb57676-2ac6-4a74-99a1-c11acbeb8c81",
+        "visit_date": "2023-10-10T11:44:39.107Z",
+        "purpose": "Exploring the campus",
+        "notes": "Require a quiet room for studying",
+        "created_at": "2023-10-10T07:37:41.375Z",
+        "updated_at": "2023-10-10T18:27:16.839Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "7eaf78cb-229a-481d-8c56-d83d3e008f67",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T05:35:12.428Z",
+        "end_date": "2023-10-10T15:10:22.653Z",
+        "description": "Choose the next leader of the nation",
+        "created_at": "2023-10-10T10:18:25.042Z",
+        "updated_at": "2023-10-10T21:15:08.512Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "04602d7c-51bd-4445-bcfe-ad89a18796fb",
+        "name": "Student Council Election",
+        "start_date": "2023-10-10T20:12:39.195Z",
+        "end_date": "2023-10-10T11:14:09.748Z",
+        "description": "Vote for your representatives in the student council",
+        "created_at": "2023-10-10T19:31:29.239Z",
+        "updated_at": "2023-10-10T13:57:31.574Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "6842e9b8-b09e-4784-8249-cb40fbe47779",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T08:18:20.317Z",
+        "end_date": "2023-10-10T04:05:56.398Z",
+        "description": "Help shape the future of the university",
+        "created_at": "2023-10-10T14:41:27.537Z",
+        "updated_at": "2023-10-10T21:23:03.180Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "7f6dbb3a-bbee-4262-a25a-2edf013385cc",
+        "name": "Faculty Senate Election",
+        "start_date": "2023-10-10T10:12:55.940Z",
+        "end_date": "2023-10-10T18:14:44.012Z",
+        "description": "Have a say in important decisions",
+        "created_at": "2023-10-10T19:35:04.486Z",
+        "updated_at": "2023-10-10T20:15:24.325Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "c4eaad83-2817-4ac1-96db-fb607cc3ece0",
+        "name": "Alumni Association Election",
+        "start_date": "2023-10-10T08:35:57.972Z",
+        "end_date": "2023-10-10T18:55:57.616Z",
+        "description": "Make your voice heard in alumni affairs",
+        "created_at": "2023-10-10T01:59:08.975Z",
+        "updated_at": "2023-10-10T17:51:34.940Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "055f9e34-9a77-4da8-aede-53d7bfb01b78",
+        "campaign_statement": "Committed to serving the community",
+        "votes_received": 93750,
+        "election_position": "President",
+        "created_at": "2023-10-10T09:25:12.331Z",
+        "updated_at": "2023-10-10T00:30:41.204Z",
+        "election_id": "7f6dbb3a-bbee-4262-a25a-2edf013385cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35374328-6430-4ea1-807c-288e96cc95a6",
+        "campaign_statement": "Passionate about education reform",
+        "votes_received": 1612,
+        "election_position": "Vice President",
+        "created_at": "2023-10-10T02:06:02.056Z",
+        "updated_at": "2023-10-09T23:13:37.934Z",
+        "election_id": "7eaf78cb-229a-481d-8c56-d83d3e008f67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f0bb4e-ef97-4765-8df5-080a0bf405e7",
+        "campaign_statement": "Dedicated to promoting inclusivity",
+        "votes_received": 84230,
+        "election_position": "Treasurer",
+        "created_at": "2023-10-10T20:49:43.610Z",
+        "updated_at": "2023-10-10T00:08:21.469Z",
+        "election_id": "6842e9b8-b09e-4784-8249-cb40fbe47779",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a0ea095-4478-4bd3-9194-7add69f8a52e",
+        "campaign_statement": "Experienced in leadership roles",
+        "votes_received": 3342,
+        "election_position": "Secretary",
+        "created_at": "2023-10-10T13:07:59.122Z",
+        "updated_at": "2023-10-10T22:24:22.910Z",
+        "election_id": "7eaf78cb-229a-481d-8c56-d83d3e008f67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ffd9364-8937-4206-a9a0-88f1f340debc",
+        "campaign_statement": "Driven to make a positive impact",
+        "votes_received": 83359,
+        "election_position": "Public Relations Officer",
+        "created_at": "2023-10-10T13:12:59.608Z",
+        "updated_at": "2023-10-10T14:32:51.666Z",
+        "election_id": "6842e9b8-b09e-4784-8249-cb40fbe47779",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "467dfefb-97db-47ac-860d-7d20114e1a28",
+        "vote_date": "2023-10-10T20:59:40.343Z",
+        "created_at": "2023-10-10T08:00:39.713Z",
+        "updated_at": "2023-10-10T21:22:08.493Z",
+        "candidate_id": "35374328-6430-4ea1-807c-288e96cc95a6",
+        "election_id": "7f6dbb3a-bbee-4262-a25a-2edf013385cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c440b49-8950-4c3e-bc28-9dd8bf1ca53c",
+        "vote_date": "2023-10-10T02:45:43.846Z",
+        "created_at": "2023-10-10T06:19:15.211Z",
+        "updated_at": "2023-10-10T08:30:41.184Z",
+        "candidate_id": "71f0bb4e-ef97-4765-8df5-080a0bf405e7",
+        "election_id": "7f6dbb3a-bbee-4262-a25a-2edf013385cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e1edaaa-0bdc-4c1b-b853-f28bcec47991",
+        "vote_date": "2023-10-09T23:56:55.652Z",
+        "created_at": "2023-10-09T23:41:50.068Z",
+        "updated_at": "2023-10-10T13:42:16.975Z",
+        "candidate_id": "35374328-6430-4ea1-807c-288e96cc95a6",
+        "election_id": "c4eaad83-2817-4ac1-96db-fb607cc3ece0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "107c835a-a563-4fb5-a3da-0a97bbd63412",
+        "vote_date": "2023-10-09T23:28:49.183Z",
+        "created_at": "2023-10-10T09:43:47.416Z",
+        "updated_at": "2023-10-10T04:27:02.695Z",
+        "candidate_id": "8a0ea095-4478-4bd3-9194-7add69f8a52e",
+        "election_id": "6842e9b8-b09e-4784-8249-cb40fbe47779",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cfacba1-e4d3-4b86-aa8e-d5e10339203a",
+        "vote_date": "2023-10-10T02:41:42.872Z",
+        "created_at": "2023-10-10T10:26:24.634Z",
+        "updated_at": "2023-10-10T16:45:00.432Z",
+        "candidate_id": "055f9e34-9a77-4da8-aede-53d7bfb01b78",
+        "election_id": "04602d7c-51bd-4445-bcfe-ad89a18796fb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25efd509-1d71-450d-bd8a-34c0570a5877",
+        "email": "Shannon48@roq.tech",
+        "firstName": "Forest",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86698320",
+        "tenantId": null
+      },
+      {
+        "reference": "b5218cab-801c-452b-99eb-348ccea97d34",
+        "email": "Isaiah_Hayes@roq.tech",
+        "firstName": "Emmitt",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86389185",
+        "tenantId": null
+      },
+      {
+        "reference": "19e16153-5ea6-489d-8e62-8ceb57478176",
+        "email": "Oma_Krajcik@roq.tech",
+        "firstName": "Ned",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9917978",
+        "tenantId": null
+      },
+      {
+        "reference": "5be9223f-d4b3-4c3d-b5b8-057de7de654c",
+        "email": "Emelia.Hettinger@roq.tech",
+        "firstName": "Bartholome",
+        "lastName": "Jerde-Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/389.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e6107c17-a56f-4e45-9e6f-663e7fdf29ac",
+        "email": "Piper78@roq.tech",
+        "firstName": "Mazie",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/551.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "4bd805c3-3211-4fc5-a863-4d84ac625d01",
+        "visit_date": "2023-10-10T16:15:37.469Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meal options",
+        "created_at": "2023-10-10T01:15:14.379Z",
+        "updated_at": "2023-10-10T17:04:18.514Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e3f37a0-be9a-403f-b637-928856c6d591",
+        "visit_date": "2023-10-10T11:09:50.340Z",
+        "purpose": "Visiting a friend",
+        "notes": "Allergic to peanuts",
+        "created_at": "2023-10-10T06:51:14.017Z",
+        "updated_at": "2023-10-10T08:00:54.143Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31145165-2809-46b3-a2b0-4f2310314cf6",
+        "visit_date": "2023-10-10T04:21:27.242Z",
+        "purpose": "Participating in a workshop",
+        "notes": "Requires wheelchair accessibility",
+        "created_at": "2023-10-10T00:05:10.747Z",
+        "updated_at": "2023-10-10T06:21:14.464Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90f5e9e8-2e37-4639-be21-cf021defab04",
+        "visit_date": "2023-10-10T19:37:21.751Z",
+        "purpose": "Attending a wedding",
+        "notes": "Arriving late in the evening",
+        "created_at": "2023-10-10T04:31:47.581Z",
+        "updated_at": "2023-10-10T05:33:17.091Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a81599b5-0059-4d8b-a058-86e13ac0b324",
+        "visit_date": "2023-10-10T03:49:20.326Z",
+        "purpose": "Exploring the city",
+        "notes": "Needs assistance with luggage",
+        "created_at": "2023-10-10T18:52:05.448Z",
+        "updated_at": "2023-10-10T13:21:31.080Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "498fb833-1bbe-4f6f-af1b-bd5ef16dd48f",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T13:13:03.801Z",
+        "end_date": "2023-10-10T00:40:55.045Z",
+        "description": "Choose the next leader of the country",
+        "created_at": "2023-10-10T11:14:59.801Z",
+        "updated_at": "2023-10-10T01:49:41.392Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "69140afd-201f-4ca7-b52f-84e850821fa5",
+        "name": "Mayoral Election",
+        "start_date": "2023-10-10T07:23:06.237Z",
+        "end_date": "2023-10-10T09:27:20.640Z",
+        "description": "Vote for the local government representative",
+        "created_at": "2023-10-10T08:46:55.513Z",
+        "updated_at": "2023-10-10T03:46:45.416Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "e2412d7f-21e0-48ca-9c23-d08ec1fcb43e",
+        "name": "Student Council Election",
+        "start_date": "2023-10-10T14:13:43.519Z",
+        "end_date": "2023-10-10T02:20:31.586Z",
+        "description": "Select student representatives for various positions",
+        "created_at": "2023-10-10T04:43:12.630Z",
+        "updated_at": "2023-10-10T09:40:01.134Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "e9f311b4-2934-45c0-ba27-1d089f5ddd88",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T09:21:17.383Z",
+        "end_date": "2023-10-10T13:41:29.869Z",
+        "description": "Elect individuals to oversee the organization's operations",
+        "created_at": "2023-10-10T12:20:25.787Z",
+        "updated_at": "2023-10-10T10:06:44.012Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "7a99bc1b-cc60-4d79-9ee8-f6df8ffa25f4",
+        "name": "Faculty Senate Election",
+        "start_date": "2023-10-10T12:12:16.241Z",
+        "end_date": "2023-10-10T18:41:02.983Z",
+        "description": "Vote for faculty members to represent academic interests",
+        "created_at": "2023-10-10T09:40:53.314Z",
+        "updated_at": "2023-10-10T18:40:41.619Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "8aa44e68-f138-4df9-b914-097867629249",
+        "campaign_statement": "Committed to creating a better future for all",
+        "votes_received": 9818,
+        "election_position": "President",
+        "created_at": "2023-10-10T20:21:12.912Z",
+        "updated_at": "2023-10-10T19:18:08.971Z",
+        "election_id": "69140afd-201f-4ca7-b52f-84e850821fa5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c0db30-f986-417c-bd53-ca83c46e7200",
+        "campaign_statement": "Passionate about serving the community",
+        "votes_received": 25927,
+        "election_position": "Mayor",
+        "created_at": "2023-10-10T13:57:40.706Z",
+        "updated_at": "2023-10-10T11:51:38.451Z",
+        "election_id": "7a99bc1b-cc60-4d79-9ee8-f6df8ffa25f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6cbd437-b192-4508-bd76-6ec63038c72c",
+        "campaign_statement": "Dedicated to improving education",
+        "votes_received": 12554,
+        "election_position": "Student Council President",
+        "created_at": "2023-10-10T06:17:13.481Z",
+        "updated_at": "2023-10-10T09:31:17.803Z",
+        "election_id": "498fb833-1bbe-4f6f-af1b-bd5ef16dd48f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82354794-c27a-49ea-9270-199588ce253a",
+        "campaign_statement": "Focused on promoting sustainable development",
+        "votes_received": 22271,
+        "election_position": "Board Chairperson",
+        "created_at": "2023-10-10T14:39:06.761Z",
+        "updated_at": "2023-10-10T02:37:07.561Z",
+        "election_id": "498fb833-1bbe-4f6f-af1b-bd5ef16dd48f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "961de5c8-4680-4a91-a1cd-94180d9e0a84",
+        "campaign_statement": "Advocating for equal rights and social justice",
+        "votes_received": 13613,
+        "election_position": "Faculty Senate Chair",
+        "created_at": "2023-10-09T23:43:29.042Z",
+        "updated_at": "2023-10-10T03:26:44.408Z",
+        "election_id": "e9f311b4-2934-45c0-ba27-1d089f5ddd88",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "b7f27c78-4240-4a19-8a69-9769fd5d0065",
+        "vote_date": "2023-10-10T09:35:13.609Z",
+        "created_at": "2023-10-10T05:36:38.033Z",
+        "updated_at": "2023-10-10T01:19:09.333Z",
+        "candidate_id": "c6cbd437-b192-4508-bd76-6ec63038c72c",
+        "election_id": "e2412d7f-21e0-48ca-9c23-d08ec1fcb43e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "971458a5-0ec8-4514-81dd-c0ff7891d1d4",
+        "vote_date": "2023-10-10T12:18:22.510Z",
+        "created_at": "2023-10-10T17:59:48.616Z",
+        "updated_at": "2023-10-10T10:53:40.364Z",
+        "candidate_id": "c6cbd437-b192-4508-bd76-6ec63038c72c",
+        "election_id": "e2412d7f-21e0-48ca-9c23-d08ec1fcb43e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ef87ae5-c4de-49f4-bfcc-b0a4397bc2c4",
+        "vote_date": "2023-10-10T03:36:35.077Z",
+        "created_at": "2023-10-10T19:07:58.858Z",
+        "updated_at": "2023-10-10T02:39:27.635Z",
+        "candidate_id": "82354794-c27a-49ea-9270-199588ce253a",
+        "election_id": "498fb833-1bbe-4f6f-af1b-bd5ef16dd48f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f2a02e-8a6d-4452-8a25-f01e02b81c94",
+        "vote_date": "2023-10-10T00:57:43.897Z",
+        "created_at": "2023-10-10T03:34:29.831Z",
+        "updated_at": "2023-10-10T04:55:27.418Z",
+        "candidate_id": "961de5c8-4680-4a91-a1cd-94180d9e0a84",
+        "election_id": "69140afd-201f-4ca7-b52f-84e850821fa5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a8ec340-a1d7-4ee0-9352-271bd1d60129",
+        "vote_date": "2023-10-10T04:45:14.884Z",
+        "created_at": "2023-10-10T19:50:49.150Z",
+        "updated_at": "2023-10-10T12:15:22.039Z",
+        "candidate_id": "08c0db30-f986-417c-bd53-ca83c46e7200",
+        "election_id": "e9f311b4-2934-45c0-ba27-1d089f5ddd88",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4ffeec5f-da17-4a66-9239-a042685b1781",
+        "email": "Elsa.OConnell@roq.tech",
+        "firstName": "Tod",
+        "lastName": "Gulgowski-Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94809948",
+        "tenantId": null
+      },
+      {
+        "reference": "fd5c26a5-0c74-43a6-a6b5-ef57ba07c01b",
+        "email": "Mozelle.Jast@roq.tech",
+        "firstName": "Anais",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63532612",
+        "tenantId": null
+      },
+      {
+        "reference": "6d079e0e-f577-40c1-9b60-25cd82a45f5e",
+        "email": "Bernhard_Farrell@roq.tech",
+        "firstName": "Zola",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19588293",
+        "tenantId": null
+      },
+      {
+        "reference": "270c9986-94bb-4a11-a009-57a4188728a5",
+        "email": "Alexis.Krajcik@roq.tech",
+        "firstName": "Crawford",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12858400",
+        "tenantId": null
+      },
+      {
+        "reference": "03d0f098-7518-4bf2-b56a-769b0fcf7b58",
+        "email": "Gussie59@roq.tech",
+        "firstName": "Olin",
+        "lastName": "Turcotte-Langworth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/694.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "af84f670-5e11-4814-9723-2a2990ce06b8",
+        "visit_date": "2023-10-10T19:43:33.106Z",
+        "purpose": "Attending a conference",
+        "notes": "Please arrange transportation from the airport",
+        "created_at": "2023-10-10T22:30:52.460Z",
+        "updated_at": "2023-10-10T16:55:11.227Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7dd4f6e-37a2-43e6-ac9f-4c15ff561239",
+        "visit_date": "2023-10-10T20:11:12.964Z",
+        "purpose": "Delivering a keynote speech",
+        "notes": "Dietary restrictions: vegetarian",
+        "created_at": "2023-10-10T15:43:47.276Z",
+        "updated_at": "2023-10-10T16:56:02.864Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c591930e-0497-4814-a162-e72f3489e239",
+        "visit_date": "2023-10-10T21:25:26.534Z",
+        "purpose": "Participating in a panel discussion",
+        "notes": "Need assistance with accommodation",
+        "created_at": "2023-10-10T05:25:11.994Z",
+        "updated_at": "2023-10-10T22:23:54.721Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f2209d9-4166-43be-9b8b-b926a00c408c",
+        "visit_date": "2023-10-10T15:06:52.957Z",
+        "purpose": "Visiting the campus",
+        "notes": "Arrival time: 10:00 AM",
+        "created_at": "2023-10-10T07:42:47.068Z",
+        "updated_at": "2023-10-09T23:58:37.247Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b784cf6-c25d-42ab-a339-15881ac73483",
+        "visit_date": "2023-10-10T22:00:50.424Z",
+        "purpose": "Meeting with faculty members",
+        "notes": "Special requests: wheelchair accessibility",
+        "created_at": "2023-10-10T22:21:57.561Z",
+        "updated_at": "2023-10-10T00:26:55.981Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "6b12a63f-81a8-4622-8b62-da298c5c69b8",
+        "name": "Presidential Election",
+        "start_date": "2023-10-10T21:43:04.835Z",
+        "end_date": "2023-10-10T02:30:04.654Z",
+        "description": "Choose the next leader of the country",
+        "created_at": "2023-10-10T13:46:40.613Z",
+        "updated_at": "2023-10-10T01:34:35.967Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "1b125a8f-ae14-4217-afbf-8e604b9d1874",
+        "name": "Student Council Election",
+        "start_date": "2023-10-10T01:12:53.954Z",
+        "end_date": "2023-10-10T13:04:53.009Z",
+        "description": "Vote for your representatives in the student council",
+        "created_at": "2023-10-09T23:46:10.907Z",
+        "updated_at": "2023-10-10T18:31:56.633Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "98e867cc-a0a8-4ca0-8418-9952b73b182f",
+        "name": "Board of Directors Election",
+        "start_date": "2023-10-10T08:43:12.246Z",
+        "end_date": "2023-10-10T21:48:03.994Z",
+        "description": "Elect members to govern the organization",
+        "created_at": "2023-10-10T12:43:32.271Z",
+        "updated_at": "2023-10-10T01:16:17.017Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "2c84c12c-8d60-4313-aa64-9592f3f3f7c1",
+        "name": "Faculty Senate Election",
+        "start_date": "2023-10-10T07:31:53.181Z",
+        "end_date": "2023-10-10T11:02:48.184Z",
+        "description": "Decide on important policies and initiatives",
+        "created_at": "2023-10-10T01:37:42.844Z",
+        "updated_at": "2023-10-10T10:40:04.299Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "be92907c-b461-4044-a2d5-adb003d9dc21",
+        "name": "Local Government Election",
+        "start_date": "2023-10-10T12:52:59.697Z",
+        "end_date": "2023-10-10T03:16:38.210Z",
+        "description": "Have your voice heard in local governance",
+        "created_at": "2023-10-10T19:28:03.775Z",
+        "updated_at": "2023-10-10T07:50:27.474Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "4fee76a7-2347-495a-a735-c5ca3fa60829",
+        "campaign_statement": "I will work tirelessly to improve education",
+        "votes_received": 19405,
+        "election_position": "President",
+        "created_at": "2023-10-10T17:42:40.137Z",
+        "updated_at": "2023-10-10T12:39:25.218Z",
+        "election_id": "1b125a8f-ae14-4217-afbf-8e604b9d1874",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a710f4be-8ebb-4e0c-873e-a2473be0a6b2",
+        "campaign_statement": "Together, we can build a stronger community",
+        "votes_received": 41260,
+        "election_position": "Vice President",
+        "created_at": "2023-10-10T12:41:29.880Z",
+        "updated_at": "2023-10-10T00:59:43.009Z",
+        "election_id": "6b12a63f-81a8-4622-8b62-da298c5c69b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4f81b6d-7d0e-4bae-b9e7-7b23a018d9ad",
+        "campaign_statement": "Vote for me and see positive change",
+        "votes_received": 61599,
+        "election_position": "Treasurer",
+        "created_at": "2023-10-10T21:04:55.260Z",
+        "updated_at": "2023-10-10T14:50:08.391Z",
+        "election_id": "2c84c12c-8d60-4313-aa64-9592f3f3f7c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74851dfd-69a0-4ea3-a5be-d3e0efc4fa9d",
+        "campaign_statement": "I have the experience and dedication to lead",
+        "votes_received": 31471,
+        "election_position": "Secretary",
+        "created_at": "2023-10-10T22:10:33.227Z",
+        "updated_at": "2023-10-10T21:30:24.125Z",
+        "election_id": "1b125a8f-ae14-4217-afbf-8e604b9d1874",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f20fb01-e1d0-46fe-8c71-75bc123cd37b",
+        "campaign_statement": "Let's shape a better future together",
+        "votes_received": 60623,
+        "election_position": "Representative",
+        "created_at": "2023-10-10T10:20:44.042Z",
+        "updated_at": "2023-10-10T01:35:19.883Z",
+        "election_id": "1b125a8f-ae14-4217-afbf-8e604b9d1874",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "01f27524-5e84-43cf-9c51-1cc5144f6a02",
+        "vote_date": "2023-10-10T17:24:44.361Z",
+        "created_at": "2023-10-10T03:13:48.411Z",
+        "updated_at": "2023-10-10T00:02:44.933Z",
+        "candidate_id": "4fee76a7-2347-495a-a735-c5ca3fa60829",
+        "election_id": "98e867cc-a0a8-4ca0-8418-9952b73b182f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f6bdb7-5a30-4c0a-b219-67b3c25f5c85",
+        "vote_date": "2023-10-10T16:06:09.603Z",
+        "created_at": "2023-10-10T04:11:46.331Z",
+        "updated_at": "2023-10-10T17:08:26.647Z",
+        "candidate_id": "a710f4be-8ebb-4e0c-873e-a2473be0a6b2",
+        "election_id": "1b125a8f-ae14-4217-afbf-8e604b9d1874",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9e13fc6-9e58-4e3b-b9fd-d6cd7cf8cea9",
+        "vote_date": "2023-10-10T18:51:45.052Z",
+        "created_at": "2023-10-10T03:13:39.457Z",
+        "updated_at": "2023-10-10T22:27:36.887Z",
+        "candidate_id": "4fee76a7-2347-495a-a735-c5ca3fa60829",
+        "election_id": "98e867cc-a0a8-4ca0-8418-9952b73b182f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07b0039b-64c2-41de-be02-66cbd7447c61",
+        "vote_date": "2023-10-10T20:09:48.939Z",
+        "created_at": "2023-10-10T20:44:33.928Z",
+        "updated_at": "2023-10-10T17:25:04.630Z",
+        "candidate_id": "a710f4be-8ebb-4e0c-873e-a2473be0a6b2",
+        "election_id": "2c84c12c-8d60-4313-aa64-9592f3f3f7c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71d2a212-00a2-4588-9a9a-18dc83f5fc5c",
+        "vote_date": "2023-10-10T22:54:26.418Z",
+        "created_at": "2023-10-10T15:03:20.376Z",
+        "updated_at": "2023-10-10T01:59:33.897Z",
+        "candidate_id": "0f20fb01-e1d0-46fe-8c71-75bc123cd37b",
+        "election_id": "1b125a8f-ae14-4217-afbf-8e604b9d1874",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "146f9401-c260-46c6-abac-d39c113065b3",
+        "email": "Velda_Renner@roq.tech",
+        "firstName": "Phyllis",
+        "lastName": "Feest-Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1077.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da99c536-25a5-4ce2-bf0f-2d551c2d738d",
+        "email": "Abelardo74@roq.tech",
+        "firstName": "Esmeralda",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2089261",
+        "tenantId": null
+      },
+      {
+        "reference": "dbbb907e-1c00-48af-914f-346125ac42ea",
+        "email": "Alex84@roq.tech",
+        "firstName": "Florencio",
+        "lastName": "Zemlak-Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69292978",
+        "tenantId": null
+      },
+      {
+        "reference": "9a88294a-aa3b-4772-b1a9-32b20e95f8fa",
+        "email": "Paige83@roq.tech",
+        "firstName": "Antonio",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d93c13a3-d53b-4e08-9ea3-7974f089c1c0",
+        "email": "Violet.Hettinger@roq.tech",
+        "firstName": "Elroy",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86147203",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "guest": [
+      {
+        "id": "32ffaa05-1b3f-4700-b5a9-30846ab5827f",
+        "visit_date": "2023-10-10T13:53:00.213Z",
+        "purpose": "Attending a conference",
+        "notes": "Please provide vegetarian meals",
+        "created_at": "2023-10-10T00:22:28.639Z",
+        "updated_at": "2023-10-10T13:32:00.437Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2c4f842-0e42-4d96-9f66-34cd265ee6d6",
+        "visit_date": "2023-10-10T18:26:55.502Z",
+        "purpose": "Visiting a friend",
+        "notes": "Require a parking pass",
+        "created_at": "2023-10-10T04:56:13.382Z",
+        "updated_at": "2023-10-10T17:22:49.021Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bb661c5-4204-40de-b852-abd4f918921e",
+        "visit_date": "2023-10-10T18:06:27.070Z",
+        "purpose": "Participating in a workshop",
+        "notes": "Allergic to peanuts",
+        "created_at": "2023-10-10T21:19:33.111Z",
+        "updated_at": "2023-10-10T10:51:16.897Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efa041dc-f7ad-40d7-b7b3-daf4394b5e33",
+        "visit_date": "2023-10-10T01:41:06.960Z",
+        "purpose": "Delivering a guest lecture",
+        "notes": "Arriving late in the evening",
+        "created_at": "2023-10-10T10:51:26.825Z",
+        "updated_at": "2023-10-10T08:22:18.634Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb7b626-2d2e-4f26-9f41-8bbfb8199c99",
+        "visit_date": "2023-10-10T01:30:39.452Z",
+        "purpose": "Exploring the campus",
+        "notes": "Need assistance with accommodation",
+        "created_at": "2023-10-10T10:30:41.563Z",
+        "updated_at": "2023-10-10T16:07:35.410Z",
+        "university_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "election": [
+      {
+        "id": "fce5a516-9e09-44c5-a738-90654462d1d5",
+        "name": "Student Council Elections",
+        "start_date": "2023-10-10T04:25:58.413Z",
+        "end_date": "2023-10-10T11:19:38.797Z",
+        "description": "Vote for your preferred candidates",
+        "created_at": "2023-10-09T23:22:53.468Z",
+        "updated_at": "2023-10-10T09:07:11.724Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "8941a1a6-67af-4006-909e-2997fa2c7e85",
+        "name": "Faculty Senate Elections",
+        "start_date": "2023-10-10T19:34:51.417Z",
+        "end_date": "2023-10-10T22:54:10.365Z",
+        "description": "Help shape the future of the university",
+        "created_at": "2023-10-10T14:30:07.836Z",
+        "updated_at": "2023-10-10T17:58:00.476Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "9f8be1ab-3c15-4deb-9675-9fa2e208dad1",
+        "name": "Board of Trustees Elections",
+        "start_date": "2023-10-10T03:42:08.087Z",
+        "end_date": "2023-10-10T02:29:48.533Z",
+        "description": "Exercise your right to vote",
+        "created_at": "2023-10-10T18:45:52.676Z",
+        "updated_at": "2023-10-10T15:12:20.109Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "fb442c4c-efc2-4347-80a6-cb17ac940b7b",
+        "name": "Alumni Association Elections",
+        "start_date": "2023-10-10T12:06:11.615Z",
+        "end_date": "2023-10-10T04:38:29.602Z",
+        "description": "Make a difference in the university community",
+        "created_at": "2023-10-10T17:43:00.646Z",
+        "updated_at": "2023-10-10T12:35:23.821Z",
+        "university_id": "main_entity_pk"
+      },
+      {
+        "id": "26426601-202c-4e31-806f-5dd65ec8b77a",
+        "name": "Graduate Student Association Elections",
+        "start_date": "2023-10-10T02:26:14.938Z",
+        "end_date": "2023-10-10T19:47:31.417Z",
+        "description": "Have a say in important decisions",
+        "created_at": "2023-10-10T17:06:44.548Z",
+        "updated_at": "2023-10-10T08:56:31.521Z",
+        "university_id": "main_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "21d29b8f-b93e-4bae-9e91-920ee4bba16a",
+        "campaign_statement": "Committed to student welfare and academic excellence",
+        "votes_received": 35587,
+        "election_position": "President",
+        "created_at": "2023-10-10T00:58:03.024Z",
+        "updated_at": "2023-10-10T03:36:47.953Z",
+        "election_id": "fb442c4c-efc2-4347-80a6-cb17ac940b7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f67ee406-7052-4c4b-bad4-f7a8e5d37443",
+        "campaign_statement": "Passionate about promoting diversity and inclusion",
+        "votes_received": 76704,
+        "election_position": "Vice President",
+        "created_at": "2023-10-10T20:40:44.430Z",
+        "updated_at": "2023-10-10T21:08:10.215Z",
+        "election_id": "9f8be1ab-3c15-4deb-9675-9fa2e208dad1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "140ebfc1-6132-487d-b9e2-77aa082b9c0f",
+        "campaign_statement": "Experienced in student leadership and community service",
+        "votes_received": 21651,
+        "election_position": "Treasurer",
+        "created_at": "2023-10-10T12:33:29.315Z",
+        "updated_at": "2023-10-10T18:44:31.440Z",
+        "election_id": "26426601-202c-4e31-806f-5dd65ec8b77a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfe33895-50ef-47b5-aedb-28e1ce146dda",
+        "campaign_statement": "Dedicated to enhancing campus facilities and resources",
+        "votes_received": 302,
+        "election_position": "Secretary",
+        "created_at": "2023-10-10T18:59:18.414Z",
+        "updated_at": "2023-10-10T06:02:10.794Z",
+        "election_id": "8941a1a6-67af-4006-909e-2997fa2c7e85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfa3f497-35ac-49c4-aa29-e0a091f26846",
+        "campaign_statement": "Focused on fostering a supportive and inclusive campus environment",
+        "votes_received": 37212,
+        "election_position": "Public Relations Officer",
+        "created_at": "2023-10-10T07:49:14.055Z",
+        "updated_at": "2023-10-10T12:21:33.041Z",
+        "election_id": "9f8be1ab-3c15-4deb-9675-9fa2e208dad1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vote": [
+      {
+        "id": "5a135783-b93a-4c68-a891-5610bc4f8848",
+        "vote_date": "2023-10-10T10:50:21.389Z",
+        "created_at": "2023-10-10T01:00:56.198Z",
+        "updated_at": "2023-10-10T15:30:49.113Z",
+        "candidate_id": "cfe33895-50ef-47b5-aedb-28e1ce146dda",
+        "election_id": "26426601-202c-4e31-806f-5dd65ec8b77a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88ba3824-89c3-4425-8d99-3e958ec528b0",
+        "vote_date": "2023-10-10T14:51:54.066Z",
+        "created_at": "2023-10-10T12:54:38.776Z",
+        "updated_at": "2023-10-10T00:48:56.954Z",
+        "candidate_id": "21d29b8f-b93e-4bae-9e91-920ee4bba16a",
+        "election_id": "26426601-202c-4e31-806f-5dd65ec8b77a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2d35fb0-fed4-4eb4-9100-1ad76510a579",
+        "vote_date": "2023-10-10T07:11:20.885Z",
+        "created_at": "2023-10-10T07:59:20.986Z",
+        "updated_at": "2023-10-10T18:25:31.244Z",
+        "candidate_id": "cfe33895-50ef-47b5-aedb-28e1ce146dda",
+        "election_id": "fb442c4c-efc2-4347-80a6-cb17ac940b7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "056271e9-6a68-4b29-9ee1-ec2330e22898",
+        "vote_date": "2023-10-10T14:37:23.537Z",
+        "created_at": "2023-10-10T18:07:25.750Z",
+        "updated_at": "2023-10-10T11:01:54.196Z",
+        "candidate_id": "21d29b8f-b93e-4bae-9e91-920ee4bba16a",
+        "election_id": "8941a1a6-67af-4006-909e-2997fa2c7e85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7c679b6-4d41-4a64-8b23-747fb07c10cf",
+        "vote_date": "2023-10-09T23:30:48.497Z",
+        "created_at": "2023-10-10T03:20:29.414Z",
+        "updated_at": "2023-10-10T01:40:21.297Z",
+        "candidate_id": "dfa3f497-35ac-49c4-aa29-e0a091f26846",
+        "election_id": "8941a1a6-67af-4006-909e-2997fa2c7e85",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8930ba90-295c-4fc0-8c47-cd85612b8f9b",
+        "email": "Bernita36@roq.tech",
+        "firstName": "Ernestina",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61226944",
+        "tenantId": null
+      },
+      {
+        "reference": "9a6af848-b050-4690-9751-3b8604bb168d",
+        "email": "Abbigail81@roq.tech",
+        "firstName": "Olin",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb0f286b-b4b9-401f-98c5-bb268c9c9373",
+        "email": "Moises62@roq.tech",
+        "firstName": "Myrtice",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42c77092-8e5f-42cc-ba43-3f3d4649a7f5",
+        "email": "Mary.Feeney@roq.tech",
+        "firstName": "Liliana",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18121128",
+        "tenantId": null
+      },
+      {
+        "reference": "e507fd04-2445-43c2-85f6-bef2d3785768",
+        "email": "Darrick.Bode30@roq.tech",
+        "firstName": "Adonis",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25319998",
+        "tenantId": null
+      }
+    ]
+  }
+]
